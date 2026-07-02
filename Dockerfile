@@ -13,5 +13,5 @@ COPY . .
 RUN composer dump-autoload --optimize --no-interaction
 COPY docker-entrypoint.sh /usr/local/bin/entrypoint
 RUN chmod +x /usr/local/bin/entrypoint
-EXPOSE 8000
+EXPOSE 80
 ENTRYPOINT ["entrypoint"]

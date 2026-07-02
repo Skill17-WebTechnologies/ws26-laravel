@@ -22,4 +22,4 @@ for i in $(seq 1 40); do
   echo "  db not ready yet ($i)"; sleep 3
 done
 
-exec php artisan serve --host 0.0.0.0 --port 8000
+exec php artisan serve --host 0.0.0.0 --port 80
