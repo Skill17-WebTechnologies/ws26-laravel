@@ -9,7 +9,7 @@ A real **Laravel 12.61.1** application (WorldSkills 2026 Web Technologies, TP17)
 docker compose up --build
 ```
 
-Then open **http://localhost:8000**. The database is a `db` service (MySQL 8.4) and its data
+Then open **http://localhost**. The database is a `db` service (MySQL 8.4) and its data
 persists in a Docker volume. Stop with `docker compose down` (add `-v` to also drop the DB).
 
 ## Develop
